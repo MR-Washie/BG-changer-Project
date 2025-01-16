@@ -47,6 +47,12 @@ h1 {
 }
 @media (max-width : 800px) {
     .parent {
-        width: auto;
+        width: 300px;
+        height: 80px;
+    }
+    .box {
+        width: 50px;
+        height: 50px;
+
     }
 }
