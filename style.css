@@ -45,6 +45,24 @@ h1 {
     padding: 15px 25px;
     text-align: center;
 }
+.centre {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(19, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+h2 {
+    align-self: auto;
+    text-align: center;
+}
 @media (max-width : 800px) {
     .parent {
         width: 300px;
@@ -55,14 +73,4 @@ h1 {
         height: 50px;
 
     }
-}
-h2 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(54, 21, 84);
-    position: absolute;
-    text-align: center;
-    top: 67%;
-    left: 34%;
-    padding: 10px 20px;
-    border-radius: 10px;
 }
